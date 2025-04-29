@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 
 
 import '../App.css';
-import MacbookAir5 from  "../assets/MacbookAir5.png"
+import Newimage from "../assets/Newimage.png"
 import MacbookAir6 from "../assets/MacbookAir6.png"
 import MacbookAir7 from "../assets/MacbookAir7.png"
 
@@ -37,7 +37,7 @@ export default function SofaAnimation() {
         className="mySwi per"
       >
         <SwiperSlide>
-          <img src={MacbookAir5} 
+          <img src={Newimage} 
           alt="Sofa" className=''/>
         </SwiperSlide>
 
