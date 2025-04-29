@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 
@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+
 
 import '../App.css';
 import MacbookAir5 from  "../assets/MacbookAir5.png"
