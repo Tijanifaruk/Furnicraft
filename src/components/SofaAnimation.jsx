@@ -10,9 +10,9 @@ import 'swiper/css/navigation';
 
 
 import '../App.css';
-import Newimage from "../assets/Newimage.png"
-import MacbookAir6 from "../assets/MacbookAir6.png"
-import MacbookAir7 from "../assets/MacbookAir7.png"
+// import Whitechairss from "../assets/Whitechairss.svg"
+import Blacksofa from "../assets/Blacksofa.svg"
+import Newbrown from "../assets/Newbrown.svg"
 
 
 
@@ -36,17 +36,17 @@ export default function SofaAnimation() {
         modules={[Autoplay]}
         className="mySwi per"
       >
-        <SwiperSlide>
-          <img src={Newimage} 
-          alt="Sofa" className=''/>
-        </SwiperSlide>
+        {/* <SwiperSlide>
+          <img src={Whitechairss} 
+          alt="Sofa" className='Sofa'/>
+        </SwiperSlide> */}
 
         <SwiperSlide>
-          <img src={MacbookAir6} alt="Sofa" className='' /> 
+          <img src={Blacksofa} alt="Sofa" /> 
         </SwiperSlide>   
 
         <SwiperSlide>
-          <img src={MacbookAir7} alt="Sofa" className=''/>
+          <img src={Newbrown} alt="Sofa" />
         </SwiperSlide>    
       </Swiper>
     </>
