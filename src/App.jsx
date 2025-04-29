@@ -16,7 +16,7 @@ import Footer from "./components/Footer"
 class App extends Component {
   render() {
     return (
-       <>
+       <div className="min-h-screen w-full bg-white text-black font-inter">
         <Navbar />
         <Hero />
         <Services />
@@ -29,7 +29,7 @@ class App extends Component {
         <CommonQ />
         <ShopNow />
         <Footer />
-       </>
+       </div>
     )
   }
 }

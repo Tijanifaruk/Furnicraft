@@ -55,7 +55,7 @@ export default function FaqAccordion() {
   return (
     <div>
        <div className='bg-white py-6 text-center text-tertiary '>
-        <h1 className='font-bold text-3xl'>Answer to Common Question</h1>
+        <h1 className='font-bold text-2xl md:text-3xl'>Answer to Common Question</h1>
       </div>
       
     <div className='bg-lightestpurple '>
@@ -66,10 +66,10 @@ export default function FaqAccordion() {
           expanded={expanded === `panel${index}`}
           onChange={handleChange(`panel${index}`)}
           sx={{
-            backgroundColor: expanded === `panel${index}` ? '#f1f1ff' : '#fff',
+            backgroundColor: expanded === `panel${index}` ? '#E6D3FF' : '#F5EDFF',
             borderRadius: '10px',
             boxShadow: 'none',
-            mb: 2,
+            mb: 1,
           }}
         >
           <AccordionSummary
@@ -91,17 +91,30 @@ export default function FaqAccordion() {
           >
             <Typography
               variant="body1"
-              sx={{ fontWeight: 'bold', mr: 2, color: '#b9b8da' }}
+              sx={{
+                fontWeight: 'bold',
+                color: '#BD8BFF',
+                mr: 5,
+                ml:3,
+                fontSize: '1.7rem',
+              }}
             >
               {faq.number}
             </Typography>
-            <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
+            <Typography variant="body1" sx={{ fontWeight: 'bold',
+            fontSize: '1.125rem',
+            color: '#000'
+
+
+            }}>
               {faq.question}
             </Typography>
           </AccordionSummary>
           {faq.answer && (
             <AccordionDetails>
-              <Typography variant="body2" sx={{ color: '#666' }}>
+              <Typography variant="body2" sx={{ color: '#666',
+                ml:12
+              }}>
                 {faq.answer}
               </Typography>
             </AccordionDetails>

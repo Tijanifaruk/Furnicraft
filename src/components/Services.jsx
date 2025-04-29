@@ -7,21 +7,21 @@ import SwiftDelivers from '../assets/SwiftDelivers.svg'
 
 function Services() {
   return (
-    <div className='flex justify-around items-center py-4 px-40 font-inter bg-lightestpurple'>
+    <div className='flex md:justify-around justify-between  items-center py-3 font-inter mx-auto bg-lightestpurple text-xs md:text-base md:gap-4'>
       
-      <div className='flex justify-center items-center '>
+      <div className='flex  items-center px-2'>
         <img src={MetroFasts} alt="" />
-        <p className='ml-4 font-medium text-foundationblack'> Swift & Free Delivery</p>
+        <p className='md:ml-4 font-medium text-foundationblack whitespace-nowrap md:whitespace-normal '> Swift & Free Delivery</p>
       </div>
 
-      <div className='flex justify-center items-center '>
+      <div className='flex  items-center px-2'>
         <img src={EasyShops} alt="Easytoshop" />
-        <p className='ml-4 font-medium text-foundationblack'>Easy to Shop</p>
+        <p className='md:ml-4 font-medium text-foundationblack whitespace-nowrap md:whitespace-normal'>Easy to Shop</p>
       </div>
 
-      <div className='flex justify-center items-center '>
+      <div className='flex  items-center px-2 mr-2'>
         <img src={SwiftDelivers} alt="" />
-        <p className='ml-4 font-medium text-foundationblack'>Stress-Free Returns</p>
+        <p className='md:ml-4 font-medium text-foundationblack whitespace-nowrap md:whitespace-normal'>Stress-Free Returns</p>
       </div>
 
     </div>

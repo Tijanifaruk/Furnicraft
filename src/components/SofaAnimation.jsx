@@ -37,15 +37,15 @@ export default function SofaAnimation() {
       >
         <SwiperSlide>
           <img src={MacbookAir5} 
-          alt="Sofa" className='border border-green-900'/>
+          alt="Sofa" className=''/>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={MacbookAir6} alt="Sofa" className='border border-green-900' /> 
+          <img src={MacbookAir6} alt="Sofa" className='' /> 
         </SwiperSlide>   
 
         <SwiperSlide>
-          <img src={MacbookAir7} alt="Sofa" className='border border-green-900'/>
+          <img src={MacbookAir7} alt="Sofa" className=''/>
         </SwiperSlide>    
       </Swiper>
     </>
