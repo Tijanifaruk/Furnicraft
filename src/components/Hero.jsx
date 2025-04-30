@@ -11,7 +11,7 @@ function Hero() {
           <img src={herobg} alt="hero-bg" className='w-full' />
           
           {/* Text and Buttons overlay */}
-          <div className='absolute inset-y-1/4 flex flex-col items-center h-full'>   
+          <div className='absolute inset-y-1/4 flex flex-col items-center h-full md:h-1/2'>   
             <h2 className='text-3xl font-bold md:text-5xl text-center'>
               Crafted for Comfort, <br /> Designed for <span className='text-secondary font-playfair italic'>Life</span>
             </h2>
@@ -19,8 +19,9 @@ function Hero() {
             <p className='text-xs mt-3 font-light md:mt-8 md:text-lg md:tracking-widest text-center'>
               Elevate your home with premium, handcrafted <br /> furniture built for style and durability
             </p>
+            </div>
 
-            <div className="w-screen px-4 flex flex-col mt-6 gap-4 md:flex-row md:justify-center">
+            <div className="md:absolute w-screen px-4 flex flex-col mt-6 md:mb-0 md:top-2/3 gap-4 md:flex-row md:justify-center">
   <button className="w-full md:w-auto bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/80 transition">
     🛍️ Shop Now
   </button>
@@ -30,12 +31,13 @@ function Hero() {
   </button>
 </div>
 
-          </div>
+          
         </div>
       </div>
-
+{/* <div className='position-relative '> */}
       {/* Sofa animation component */}
       <SofaAnimation />
+      {/* </div> */}
     </>
   )
 }

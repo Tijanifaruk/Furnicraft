@@ -34,7 +34,7 @@ export default function SofaAnimation() {
         // }}
         // // navigation={true}
         modules={[Autoplay]}
-        className="mySwi per"
+        className="mySwiper"
       >
         {/* <SwiperSlide>
           <img src={Whitechairss} 

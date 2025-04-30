@@ -19,7 +19,7 @@ class App extends Component {
        <div className="min-h-screen w-full bg-white text-black font-inter">
         <Navbar />
         <Hero />
-        <Services />
+        {/* <Services /> */}
         <CheckOut />
         <NewCollections />
         <Featured />
