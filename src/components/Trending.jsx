@@ -18,7 +18,7 @@ const trendingProducts = [
   { id: 3, name: "Office Table", image: OfficeTable, price: "$500.00", discount: "$300.00", discountPercent: "-10%" },
   { id: 4, name: "Floor Lamp", image: FloorLamps, price: "$120.00", discount: "$80.00", discountPercent: "-10%" },
   { id: 5, name: "Chesterfield", image: Chester, price: "$600.00", discount: "$420.00", discountPercent: "-20%" },
-  { id: 6, name: "Round Center Table", image: RoundTable, price: "$250.00", discount: "$50.00", discountPercent: "-10%" },
+  { id: 6, name: "Round Table", image: RoundTable, price: "$250.00", discount: "$50.00", discountPercent: "-10%" },
 ];
 
 function Trending() {
@@ -101,7 +101,7 @@ function Trending() {
             >
               <div className="flex justify-between items-center p-4">
                 <div className="flex items-center bg-white p-2 rounded-2xl">
-                  <span className="text-sm font-semibold mr-3 text-tertiary">
+                  <span className="text-xs font-semibold mr-3 text-tertiary">
                     {product.name}
                   </span>
                   <span className="text-red-500 text-xs bg-purple p-1 rounded-xl">
@@ -114,7 +114,7 @@ function Trending() {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-40 object-contain mt-2"
+                className="w-full h-40 object-contain mt-2 "
               />
 
               <div className="flex justify-center items-center mt-4 space-x-2 text-center pl-2">

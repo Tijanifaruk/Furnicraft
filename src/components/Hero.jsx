@@ -5,7 +5,7 @@ import SofaAnimation from './SofaAnimation';
 function Hero() {
   return (
     <>
-      <div className='bg-white mt-10'>
+      <div className=' mt-10'>
         <div className='justify-center mb-10 md:mb-0 w-full relative flex flex-col items-center font-inter mx-auto md:w-2/3'> 
           {/* Hero background image */}
           <img src={herobg} alt="hero-bg" className='w-full' />
@@ -34,10 +34,10 @@ function Hero() {
           
         </div>
       </div>
-{/* <div className='position-relative '> */}
+
       {/* Sofa animation component */}
       <SofaAnimation />
-      {/* </div> */}
+     
     </>
   )
 }

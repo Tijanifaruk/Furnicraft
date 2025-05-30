@@ -55,16 +55,13 @@ function Featured() {
 />
 
 </div>
-
-
-                  <h2 className="font-semibold mt-3">{product.title}</h2>
-                  <p className="text-sm text-gray-500">Discover more products</p>
-                </a>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-
+      <h2 className="font-semibold mt-3 text-sm md:text-sm">{product.title}</h2>
+      <p className="text-sm text-gray-500">Discover more products</p>
+    </a>
+  </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
         {/* Navigation styling */}
         <style jsx>{`
           .swiper-button-next, .swiper-button-prev {

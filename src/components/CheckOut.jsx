@@ -12,20 +12,20 @@ function CheckOut() {
       </div>
 
 
-      <div className="flex flex-col md:flex-row md:space-x-16 pb-8 bg-purple container mx-auto">
+      <div className="w-11/12  flex flex-col md:flex-row  bg-purple  mx-auto items-center p-2">
 
-<div className="w-full md:w-1/2 px-6 md:pl-20">
-<img src={royalseeat} alt="Royal Seat" className="hidden md:block md:w-full md:h-auto" />
+<div className=" w-full md:w-1/2 ">
+<img src={royalseeat} alt="Royal Seat" className="hidden md:block w-full " />
 </div>
 
-<div className="ml-7 w-5/6 md:w-1/3 bg-white/50 p-6 mt-6 md:mt-32 md:mr-20 rounded-xl">
-  <div className="justify-center md:mb-6 flex md:justify-between items-center">
-    <div>
-      <span className="text-special text-4xl font-bold">ROYAL</span>{" "}
-      <span className="text-tertiary text-4xl font-bold">SEATS</span>
+<div className=" ml-7 w-5/6 md:w-1/2 lg:w-1/3 bg-white/50 rounded-xl p-2">
+  <div className="   flex space-x-2 items-center md:py-2">
+    <div className=' '>
+      <span className="text-special text-3xl font-bold ">ROYAL</span>{" "}
+      <span className="text-tertiary text-3xl font-bold">SEATS</span>
     </div>
     <div className="bg-white p-1 rounded-lg">
-      <span>4.5 ⭐</span>
+      <span>4.5⭐</span>
     </div>
     </div>
 
@@ -44,14 +44,6 @@ function CheckOut() {
 </div>
 
 </div>
-
-
-
-
-
-
-
-
 
 
     </div>

@@ -14,11 +14,11 @@ const Testimonial = () => {
       </div>
 
       {/* Testimonial Card */}
-      <div className="bg-lightestpurple">
+      <div className="bg-lightestpurple border border-green-700">
         <div className="flex flex-col md:flex-row justify-center items-center pt-14 pb-12 px-6 md:px-24">
           
           {/* Image Section */}
-          <div className="relative w-full md:w-auto">
+          <div className="relative w-full md:w-auto border border-red-700">
             <img
               src={TestimonyImage}
               alt="Person"
@@ -26,14 +26,14 @@ const Testimonial = () => {
             />
 
             {/* Overlay Content for Mobile */}
-            <div className="rounded-lg absolute inset-0 bg-new bg-opacity-80 flex flex-col justify-center items-start p-6 md:hidden text-white">
+            <div className="rounded-lg absolute inset-0 bg-new bg-opacity-80 flex flex-col justify-center items-start p-6 md:hidden text-white ">
               <div className="flex space-x-1 text-2xl mb-4">
                 {[...Array(5)].map((_, i) => (
                   <CiStar key={i} />
                 ))}
               </div>
 
-              <img src={Vector} alt="Vector" className="absolute top-4 right-4 w-8 opacity-20" />
+              <img src={Vector} alt="Vector" className="absolute top-4 right-4  w-16 opacity-20" />
 
               <p className="mb-6 text-base leading-relaxed">
                 Lorem ipsum dolor sit amet consectetur. Consequat auctor consectetur nunc vitae dolor blandit. Elit enim massa etiam neque laoreet lorem sed.
@@ -44,7 +44,7 @@ const Testimonial = () => {
           </div>
 
           {/* Desktop Testimonial Content */}
-          <div className="hidden md:block relative w-1/2 bg-new text-white p-10 md:h-[475px] rounded-lg">
+          <div className="hidden md:block relative w-1/2 bg-new text-white p-4 lg:h-[470px] h-[450px] rounded-lg">
             <div className="flex space-x-1 text-3xl mb-8 mt-20">
               {[...Array(5)].map((_, i) => (
                 <CiStar key={i} />
