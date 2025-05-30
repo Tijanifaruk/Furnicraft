@@ -55,7 +55,7 @@ function Featured() {
 />
 
 </div>
-      <h2 className="font-semibold mt-3 text-sm md:text-sm">{product.title}</h2>
+      <h2 className="font-semibold mt-3 text-[16px] md:text-sm">{product.title}</h2>
       <p className="text-sm text-gray-500">Discover more products</p>
     </a>
   </div>
