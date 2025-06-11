@@ -14,11 +14,11 @@ const Testimonial = () => {
       </div>
 
       {/* Testimonial Card */}
-      <div className="bg-lightestpurple border border-green-700">
+      <div className="bg-lightestpurple ">
         <div className="flex flex-col md:flex-row justify-center items-center pt-14 pb-12 px-6 md:px-24">
           
           {/* Image Section */}
-          <div className="relative w-full md:w-auto border border-red-700">
+          <div className="relative w-full md:w-auto ">
             <img
               src={TestimonyImage}
               alt="Person"
